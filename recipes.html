@@ -3,133 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Browse recipes featured on the Chef Passaretti YouTube channel."
+    >
+
     <title>Recipes | Chef Passaretti</title>
 
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            margin: 0;
-            background: #fafafa;
-            color: #222;
-            line-height: 1.7;
-        }
-
-        header {
-            background: white;
-            border-bottom: 1px solid #e5e5e5;
-            padding: 20px 40px;
-        }
-
-        nav {
-            display: flex;
-            gap: 30px;
-            align-items: center;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #222;
-            font-weight: 600;
-        }
-
-        main {
-            max-width: 900px;
-            margin: 60px auto;
-            padding: 0 30px;
-        }
-
-        h1 {
-            font-size: 48px;
-            margin-bottom: 10px;
-        }
-
-        .card {
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 24px;
-            margin-bottom: 24px;
-        }
-
-        .card h2 {
-            margin-top: 0;
-        }
-
-        .card a {
-            color: #222;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        footer {
-            margin-top: 80px;
-            padding: 30px;
-            text-align: center;
-            color: #777;
-            border-top: 1px solid #ddd;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
 <header>
+    <nav>
+        <strong>Chef Passaretti</strong>
 
-<nav>
-
-<strong>Chef Passaretti</strong>
-
-<a href="index.html">Home</a>
-<a href="recipes.html" aria-current="page">Recipes</a>
-<a href="kitchen.html">Kitchen</a>
-
-</nav>
-
+        <a href="index.html">Home</a>
+        <a href="recipes.html" aria-current="page">Recipes</a>
+        <a href="kitchen.html">Kitchen</a>
+    </nav>
 </header>
 
 <main>
 
-<h1>Recipes</h1>
+    <h1>Recipes</h1>
 
-<p>
-These are the recipes featured on the Chef Passaretti YouTube channel.
-Each page includes the written recipe, ingredients, instructions, and the video.
-</p>
+    <p>
+        Recipes featured on the Chef Passaretti YouTube channel.
+        Each recipe page includes the written recipe, cooking notes,
+        and the complete video.
+    </p>
 
-<div class="card">
+    <article class="card">
+        <h2>
+            <a href="recipes/fresh-tomato-pasta.html">
+                15-Minute Fresh Tomato Pasta
+            </a>
+        </h2>
 
-<h2>
-<a href="recipes/fresh-tomato-pasta.html">
-Fresh Tomato Pasta
-</a>
-</h2>
+        <p>
+            Cherry tomatoes cooked with garlic and olive oil, then finished
+            with fresh basil, Parmigiano Reggiano, and rigatoni.
+        </p>
 
-<p>
-Fresh tomatoes, garlic, basil, olive oil, and pasta.
-</p>
+        <a class="button" href="recipes/fresh-tomato-pasta.html">
+            View Recipe →
+        </a>
+    </article>
 
-</div>
+    <article class="card">
+        <h2>Spaghetti Aglio e Olio</h2>
 
-<div class="card">
+        <p>
+            A simple pasta made with garlic, olive oil, parsley, and a few
+            carefully handled ingredients.
+        </p>
 
-<h2>
-<a href="recipes/spaghetti-aglio-e-olio.html">
-Spaghetti Aglio e Olio
-</a>
-</h2>
-
-<p>
-A simple 15-minute pasta with garlic, olive oil, and parsley.
-</p>
-
-</div>
+        <p>
+            Recipe coming soon.
+        </p>
+    </article>
 
 </main>
 
 <footer>
-
-© 2026 Chef Passaretti
-
+    © 2026 Chef Passaretti
 </footer>
 
 </body>
