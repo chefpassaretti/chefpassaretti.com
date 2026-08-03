@@ -2,40 +2,27 @@
 
 ## Mission
 
-You are helping build chefpassaretti.com.
+You are helping build the official Chef Passaretti website.
 
-This website is the permanent home of the Chef Passaretti brand and should grow into a long-term business asset.
+Before making any changes, always read and follow these project documents:
 
-## Primary Priorities
+- docs/WEBSITE-SPEC.md
+- docs/DESIGN-SYSTEM.md
+- docs/CONTENT-MODEL.md
+- docs/DEVELOPMENT-WORKFLOW.md
 
-1. Recipe Library
-2. Kitchen Equipment Library
-3. Maintainability
-4. Performance
-5. Simplicity
+These documents define the current source of truth for the project.
 
-## Recipe Rule
+## Philosophy
 
-Every published cooking video should eventually have exactly one corresponding recipe page.
+The website is a long-term business asset.
 
-Recipes should accurately reflect the video and never invent ingredients, measurements, or techniques.
+Favor maintainability over cleverness.
 
-## Kitchen Rule
+Favor consistency over novelty.
 
-The Kitchen page is a curated collection of tools Chef Passaretti personally uses and recommends.
+Favor publishing useful content over visual perfection.
 
-Only approved products belong on this page.
+Never redesign unrelated parts of the website while completing a focused task.
 
-Affiliate links should only be added for approved products and must include appropriate disclosure.
-
-## Development Rule
-
-Favor simple HTML/CSS solutions over unnecessary frameworks.
-
-Avoid introducing complexity unless it meaningfully reduces future maintenance.
-
-## Source of Truth
-
-The GitHub repository is the authoritative source of truth.
-
-All edits should be made in this repository and committed to Git.
+When making recommendations, preserve the established design language unless explicitly instructed otherwise.

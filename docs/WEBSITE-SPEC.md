@@ -1,18 +1,70 @@
-# Chef Passaretti Website Specification
+\# Chef Passaretti Website Specification
 
-## 1. Purpose
 
-ChefPassaretti.com is the permanent, platform-independent home of the Chef Passaretti cooking brand and business.
 
-The website exists to accumulate durable business assets, including:
+\## Purpose
 
-- Written recipes
-- Cooking knowledge
-- Trusted kitchen-tool recommendations
-- YouTube video connections
-- Search traffic
-- Affiliate revenue
-- Future email subscribers
-- Future educational products
 
-The website is not merely promotional support for YouTube. It is an owned content platform that becomes more valuable with every published video and every documented recommendation.
+
+\## Guiding Principles
+
+
+
+\## Website Architecture
+
+
+
+\## Navigation
+
+
+
+\## Primary Pages
+
+
+
+\### Home
+
+
+
+\### Recipes
+
+
+
+\### Individual Recipe
+
+
+
+\### Kitchen
+
+
+
+\### About
+
+
+
+\## Relationship to YouTube
+
+
+
+\## Content Strategy
+
+
+
+\## SEO Philosophy
+
+
+
+\## Performance Philosophy
+
+
+
+\## Accessibility
+
+
+
+\## Definition of Done
+
+
+
+\## Future Roadmap
+

@@ -16,42 +16,175 @@
 
 <body>
 
-<header>
+<header class="site-header">
     <nav>
-        <strong>Chef Passaretti</strong>
-
+        <a class="site-logo" href="index.html">Chef Passaretti</a>
         <a href="index.html" aria-current="page">Home</a>
         <a href="recipes.html">Recipes</a>
         <a href="kitchen.html">Kitchen</a>
     </nav>
 </header>
 
-<section class="hero">
-
-    <h1>Real Home Cooking.</h1>
-
-    <p>
-        Recipes, techniques, and thoughtful home cooking centered on craftsmanship,
-        continuous improvement, and enjoying the process.
-    </p>
-
-    <a class="button" href="recipes.html">
-        Explore Recipes →
-    </a>
-
-    <h2>What You'll Find Here</h2>
-
-    <p>
-        • Recipes<br>
-        • Cooking techniques<br>
-        • Kitchen equipment<br>
-        • Lessons learned through repetition
-    </p>
-
+<section class="hero-visual">
+    <div class="hero-visual__media">
+        <img
+            src="images/hero-home.jpg"
+            alt="A bowl of pasta with fresh herbs and olive oil on a wooden table"
+            width="1600"
+            height="1067"
+        >
+    </div>
+    <div class="hero-visual__overlay" aria-hidden="true"></div>
+    <div class="hero-visual__content">
+        <p class="hero-brand">Chef Passaretti</p>
+        <h1>Real Home Cooking.</h1>
+        <p>
+            Recipes, techniques, and thoughtful cooking centered on craftsmanship,
+            continuous improvement, and enjoying the process.
+        </p>
+        <a class="button button-light" href="recipes.html">
+            Explore Recipes
+        </a>
+    </div>
 </section>
 
-<footer>
-    © 2026 Chef Passaretti
+<section class="section" aria-labelledby="featured-heading">
+    <div class="section-inner">
+        <div class="section-header">
+            <p class="section-kicker">Featured</p>
+            <h2 id="featured-heading">Recipes Worth Making</h2>
+            <p class="section-intro">
+                Approachable dishes built on solid technique—the kind of cooking
+                you return to again and again.
+            </p>
+        </div>
+
+        <div class="recipe-grid">
+            <a class="recipe-tile" href="recipes/fresh-tomato-pasta.html">
+                <div class="recipe-tile__image">
+                    <img
+                        src="images/recipes/fresh-tomato-pasta.jpg"
+                        alt="Rigatoni with cherry tomatoes, basil, and Parmigiano Reggiano"
+                        width="1200"
+                        height="900"
+                    >
+                </div>
+                <h3>15-Minute Fresh Tomato Pasta</h3>
+                <p>
+                    Cherry tomatoes cooked with garlic and olive oil, finished
+                    with fresh basil and Parmigiano Reggiano.
+                </p>
+            </a>
+
+            <div class="recipe-tile recipe-tile--coming-soon">
+                <div class="recipe-tile__image">
+                    <img
+                        src="images/recipes/aglio-e-olio.jpg"
+                        alt="Spaghetti aglio e olio with garlic, olive oil, and parsley"
+                        width="1200"
+                        height="900"
+                    >
+                </div>
+                <h3>Spaghetti Aglio e Olio</h3>
+                <p>
+                    A simple pasta made with garlic, olive oil, parsley, and a
+                    few carefully handled ingredients.
+                </p>
+                <span class="recipe-tile__status">Coming soon</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-muted" aria-labelledby="meet-heading">
+    <div class="section-inner">
+        <div class="split">
+            <div class="split__image">
+                <img
+                    src="images/about-meet.jpg"
+                    alt="Hands preparing fresh ingredients at a kitchen counter"
+                    width="1200"
+                    height="1500"
+                >
+            </div>
+            <div class="split__content">
+                <p class="section-kicker">About</p>
+                <h2 id="meet-heading">Meet Chef Passaretti</h2>
+                <p>
+                    This site is an extension of the YouTube channel—a quiet place
+                    for written recipes, cooking notes, and the tools that earn a
+                    permanent spot in the kitchen.
+                </p>
+                <p>
+                    The focus is craftsmanship over trends: learning through
+                    repetition, understanding the process, and cooking food worth
+                    sharing at home.
+                </p>
+                <a class="text-link" href="recipes.html">Browse the recipes</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" aria-labelledby="kitchen-heading">
+    <div class="section-inner">
+        <div class="kitchen-preview">
+            <div class="kitchen-preview__content">
+                <p class="section-kicker">In the Kitchen</p>
+                <h2 id="kitchen-heading">Tools Worth Keeping</h2>
+                <p>
+                    Great cooking does not require expensive equipment. Skill and
+                    repetition matter more. The kitchen page is a small, curated
+                    list of tools that have proven useful through real use—not
+                    trends.
+                </p>
+                <a class="button" href="kitchen.html">Visit My Kitchen</a>
+            </div>
+            <div class="kitchen-preview__image">
+                <img
+                    src="images/kitchen-preview.jpg"
+                    alt="A clean kitchen counter with cookware and wooden utensils"
+                    width="1200"
+                    height="960"
+                >
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-muted" aria-labelledby="latest-heading">
+    <div class="section-inner">
+        <div class="section-header">
+            <p class="section-kicker">Recently Added</p>
+            <h2 id="latest-heading">Latest Recipes</h2>
+        </div>
+
+        <ul class="latest-list">
+            <li>
+                <a href="recipes/fresh-tomato-pasta.html">
+                    <span class="latest-list__title">15-Minute Fresh Tomato Pasta</span>
+                    <span class="latest-list__meta">View recipe</span>
+                </a>
+            </li>
+            <li>
+                <a href="recipes.html">
+                    <span class="latest-list__title">Spaghetti Aglio e Olio</span>
+                    <span class="latest-list__meta">Coming soon</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="site-footer-inner">
+        <nav class="site-footer-nav" aria-label="Footer">
+            <a href="index.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="kitchen.html">Kitchen</a>
+        </nav>
+        <p>© 2026 Chef Passaretti</p>
+    </div>
 </footer>
 
 </body>
