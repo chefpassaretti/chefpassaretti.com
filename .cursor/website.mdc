@@ -1,0 +1,41 @@
+# Chef Passaretti Website Rules
+
+## Mission
+
+You are helping build chefpassaretti.com.
+
+This website is the permanent home of the Chef Passaretti brand and should grow into a long-term business asset.
+
+## Primary Priorities
+
+1. Recipe Library
+2. Kitchen Equipment Library
+3. Maintainability
+4. Performance
+5. Simplicity
+
+## Recipe Rule
+
+Every published cooking video should eventually have exactly one corresponding recipe page.
+
+Recipes should accurately reflect the video and never invent ingredients, measurements, or techniques.
+
+## Kitchen Rule
+
+The Kitchen page is a curated collection of tools Chef Passaretti personally uses and recommends.
+
+Only approved products belong on this page.
+
+Affiliate links should only be added for approved products and must include appropriate disclosure.
+
+## Development Rule
+
+Favor simple HTML/CSS solutions over unnecessary frameworks.
+
+Avoid introducing complexity unless it meaningfully reduces future maintenance.
+
+## Source of Truth
+
+The GitHub repository is the authoritative source of truth.
+
+All edits should be made in this repository and committed to Git.
