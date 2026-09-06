@@ -3,73 +3,527 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta
         name="description"
         content="Browse recipes featured on the Chef Passaretti YouTube channel."
     >
-
     <title>Recipes | Chef Passaretti</title>
-
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-<header>
+<header class="site-header">
     <nav>
-        <strong>Chef Passaretti</strong>
-
+        <a class="site-logo" href="index.html">Chef Passaretti</a>
         <a href="index.html">Home</a>
         <a href="recipes.html" aria-current="page">Recipes</a>
         <a href="kitchen.html">Kitchen</a>
     </nav>
 </header>
 
-<main>
-
-    <h1>Recipes</h1>
-
-    <p>
-        Recipes featured on the Chef Passaretti YouTube channel.
-        Each recipe page includes the written recipe, cooking notes,
-        and the complete video.
-    </p>
-
-    <article class="card">
-        <h2>
-            <a href="recipes/fresh-tomato-pasta.html">
-                15-Minute Fresh Tomato Pasta
-            </a>
-        </h2>
-
-        <p>
-            Cherry tomatoes cooked with garlic and olive oil, then finished
-            with fresh basil, Parmigiano Reggiano, and rigatoni.
+<main class="section page-shell">
+    <div class="section-inner">
+        <p class="section-kicker">Recipe Library</p>
+        <h1>Recipes</h1>
+        <p class="section-intro">
+            Written recipes from the Chef Passaretti YouTube channel—each with
+            cooking notes, ingredients, and the full video.
         </p>
 
-        <a class="button" href="recipes/fresh-tomato-pasta.html">
-            View Recipe →
+        <div class="recipe-index-grid">
+        <a class="recipe-index-card" href="recipes/15-minute-fresh-tomato-pasta.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/15-minute-fresh-tomato-pasta.jpg"
+                    alt="15-Minute Fresh Tomato Pasta"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>15-Minute Fresh Tomato Pasta</h2>
+            <p>A 15-minute cherry tomato pasta with garlic, basil, and rigatoni.</p>
         </a>
-    </article>
 
-    <article class="card">
-        <h2>Spaghetti Aglio e Olio</h2>
+        <a class="recipe-index-card" href="recipes/baked-chicken-parmesan.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/baked-chicken-parmesan.jpg"
+                    alt="Baked Chicken Parmesan"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Baked Chicken Parmesan</h2>
+            <p>Oven-baked chicken Parmesan with a crisp cutlet, tomato sauce, and melted mozzarella.</p>
+        </a>
 
-        <p>
-            A simple pasta made with garlic, olive oil, parsley, and a few
-            carefully handled ingredients.
-        </p>
+        <a class="recipe-index-card" href="recipes/blended-zucchini-spaghetti.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/blended-zucchini-spaghetti.jpg"
+                    alt="Blended Zucchini Spaghetti"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Blended Zucchini Spaghetti</h2>
+            <p>Sautéed zucchini blended into a silky lemon-and-Parmesan sauce for spaghetti.</p>
+        </a>
 
-        <p>
-            Recipe coming soon.
-        </p>
-    </article>
+        <a class="recipe-index-card" href="recipes/making-cacio-e-pepe.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/making-cacio-e-pepe.jpg"
+                    alt="Cacio e Pepe"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Cacio e Pepe</h2>
+            <p>An authentic Roman Cacio e Pepe made with just pasta, Pecorino Romano, black pepper, and technique.</p>
+        </a>
 
+        <a class="recipe-index-card" href="recipes/caramelized-zucchini-spaghetti.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/caramelized-zucchini-spaghetti.jpg"
+                    alt="Caramelized Zucchini Spaghetti"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Caramelized Zucchini Spaghetti</h2>
+            <p>Zucchini sautéed dark with garlic, then emulsified into a lemony provolone sauce for spaghetti.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/chicken-marsala.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/chicken-marsala.jpg"
+                    alt="Chicken Marsala"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Chicken Marsala</h2>
+            <p>Chicken Marsala with deeply browned mushrooms and a rich Marsala wine sauce.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/eggplant-rollatini.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/eggplant-rollatini.jpg"
+                    alt="Eggplant Rollatini"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Eggplant Rollatini</h2>
+            <p>Tender eggplant rolled around ricotta, basil, and Parmesan, baked in marinara.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/focaccia-barese.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/focaccia-barese.jpg"
+                    alt="Focaccia Barese"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Focaccia Barese</h2>
+            <p>Focaccia from Bari with potato in the dough, cherry tomatoes, olives, and olive oil.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/making-homemade-pizza.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/fresh-pizza.jpg"
+                    alt="Fresh Pizza"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Fresh Pizza</h2>
+            <p>A homemade New York-style pizza made completely from scratch in a home oven.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/fresh-tomato-zucchini-pasta.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/fresh-tomato-zucchini-pasta.jpg"
+                    alt="Fresh Tomato and Zucchini Pasta"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Fresh Tomato and Zucchini Pasta</h2>
+            <p>Fresh tomatoes and zucchini cooked soft, strained silky, and tossed with spaghetti.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/grandma-pizza.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/grandma-pizza.jpg"
+                    alt="Grandma Pizza"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Grandma Pizza</h2>
+            <p>A thick, square grandma pizza with crispy oiled edges and a simple tomato topping.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/homemade-crepes.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/homemade-crepes.jpg"
+                    alt="Homemade Crepes"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Homemade Crepes</h2>
+            <p>Light homemade crepes with strawberries, bananas, whipped cream, and maple syrup.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/homemade-guacamole.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/homemade-guacamole.jpg"
+                    alt="Homemade Guacamole"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Homemade Guacamole</h2>
+            <p>A simple, fresh guacamole built on avocado, tomato, and lime.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/homemade-mushroom-ravioli.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/homemade-mushroom-ravioli.jpg"
+                    alt="Homemade Mushroom Ravioli"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Homemade Mushroom Ravioli</h2>
+            <p>From-scratch mushroom ravioli finished with a simple Marsala butter sauce.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/homemade-tiramisu.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/homemade-tiramisu.jpg"
+                    alt="Homemade Tiramisu"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Homemade Tiramisu</h2>
+            <p>A no-bake tiramisu with mascarpone, whipped cream, Marsala, and espresso-dipped ladyfingers.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/lemon-butter-sage-pasta.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/lemon-butter-sage-pasta.jpg"
+                    alt="Lemon Butter Sage Pasta"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Lemon Butter Sage Pasta</h2>
+            <p>Brown butter, sage, lemon, and Parmigiano tossed with pasta into a glossy sauce.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/long-hot-pepper-anchovy-pasta.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/long-hot-pepper-anchovy-pasta.jpg"
+                    alt="Long Hot Pepper and Anchovy Pasta"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Long Hot Pepper and Anchovy Pasta</h2>
+            <p>Long hot peppers, garlic, and anchovies melted into olive oil and tossed with Pecorino.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/marsala-mushroom-risotto.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/marsala-mushroom-risotto.jpg"
+                    alt="Marsala Mushroom Risotto"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Marsala Mushroom Risotto</h2>
+            <p>A creamy Marsala mushroom risotto made the traditional way, without shortcuts.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/mushroom-anchovy-pasta.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/mushroom-anchovy-pasta.jpg"
+                    alt="Mushroom and Anchovy Pasta"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Mushroom and Anchovy Pasta</h2>
+            <p>Caramelized mushrooms and melted anchovies with garlic, parsley, and crispy breadcrumbs.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/one-bowl-chocolate-chip-cookies.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/one-bowl-chocolate-chip-cookies.jpg"
+                    alt="One-Bowl Chocolate Chip Cookies"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>One-Bowl Chocolate Chip Cookies</h2>
+            <p>A one-bowl chocolate chip cookie with crisp edges and a soft, chewy center.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/pappardelle-with-mushrooms.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/pappardelle-with-mushrooms.jpg"
+                    alt="Pappardelle with Mushrooms"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Pappardelle with Mushrooms</h2>
+            <p>Pappardelle with browned baby bellas, thyme, a splash of Marsala, and Parmesan.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/pasta-al-limone.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/pasta-al-limone.jpg"
+                    alt="Pasta al Limone"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Pasta al Limone</h2>
+            <p>A silky lemon, butter, and Parmigiano pasta that proves less is more.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/pasta-pomodoro.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/pasta-pomodoro.jpg"
+                    alt="Pasta Pomodoro"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Pasta Pomodoro</h2>
+            <p>A 20-minute pasta pomodoro made with fresh tomatoes, basil, and garlic.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/pepperoni-vodka-pasta.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/pepperoni-vodka-pasta.jpg"
+                    alt="Pepperoni Vodka Pasta"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Pepperoni Vodka Pasta</h2>
+            <p>Pepperoni rendered into a vodka-cream tomato sauce and tossed with pasta.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/rigatoni-no-vodka.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/rigatoni-no-vodka.jpg"
+                    alt="Rigatoni No Vodka"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Rigatoni No Vodka</h2>
+            <p>A creamy tomato rigatoni that gets everything you want from vodka sauce—without the vodka.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/roasted-red-pepper-pasta.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/roasted-red-pepper-pasta.jpg"
+                    alt="Roasted Red Pepper Pasta"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Roasted Red Pepper Pasta</h2>
+            <p>A 20-minute rigatoni with roasted red pepper, blistered cherry tomatoes, and two cheeses.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/sage-brown-butter-gnocchi.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/sage-brown-butter-gnocchi.jpg"
+                    alt="Sage and Brown Butter Gnocchi"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Sage and Brown Butter Gnocchi</h2>
+            <p>Deli gnocchi in brown butter, crisp sage, and a glossy Parmigiano sauce.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/sausage-baby-broccoli-pasta.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/sausage-baby-broccoli-pasta.jpg"
+                    alt="Sausage and Baby Broccoli Pasta"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Sausage and Baby Broccoli Pasta</h2>
+            <p>Hot Italian sausage pasta with baby broccoli, long hot peppers, and Parmesan.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/sausage-and-basil-pasta.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/sausage-and-basil-pasta.jpg"
+                    alt="Sausage and Basil Pasta"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Sausage and Basil Pasta</h2>
+            <p>A 20-minute sausage pasta finished with white wine, basil, and Parmesan.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/sausage-and-peppers.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/sausage-and-peppers.jpg"
+                    alt="Sausage and Peppers"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Sausage and Peppers</h2>
+            <p>The classic Italian sausage and peppers I grew up eating, with vegetables that still have a bite.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/spaghetti-aglio-e-olio.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/spaghetti-aglio-e-olio.jpg"
+                    alt="Spaghetti Aglio e Olio"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Spaghetti Aglio e Olio</h2>
+            <p>A 15-minute spaghetti with garlic, olive oil, parsley, and pasta water.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/spaghetti-alla-nerano.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/spaghetti-alla-nerano.jpg"
+                    alt="Spaghetti alla Nerano"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Spaghetti alla Nerano</h2>
+            <p>Fried zucchini and aged provolone turned into a creamy spaghetti sauce without cream.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/tavern-style-thin-crust-pizza.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/tavern-style-thin-crust-pizza.jpg"
+                    alt="Tavern-Style Thin Crust Pizza"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Tavern-Style Thin Crust Pizza</h2>
+            <p>A cracker-thin, square-cut tavern pizza with an overnight dough and simple toppings.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/eggplant-parmesan.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/eggplant-parmesan.jpg"
+                    alt="Traditional Eggplant Parmesan"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Traditional Eggplant Parmesan</h2>
+            <p>A traditional Neapolitan eggplant Parmesan with fried eggplant, San Marzano sauce, and well-drained mozzarella.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/pistachio-pesto-pasta.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/pistachio-pesto-pasta.jpg"
+                    alt="Traditional Pistachio Pesto Pasta"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Traditional Pistachio Pesto Pasta</h2>
+            <p>A traditional Sicilian-style pistachio pesto finished with pasta water into a glossy sauce.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/white-wine-lemon-scallop-spaghetti.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/white-wine-lemon-scallop-spaghetti.jpg"
+                    alt="White Wine Lemon Scallop Spaghetti"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>White Wine Lemon Scallop Spaghetti</h2>
+            <p>Seared scallops and spaghetti in a white wine, garlic, butter, and lemon sauce.</p>
+        </a>
+
+        <a class="recipe-index-card" href="recipes/epi-de-ble.html">
+            <div class="recipe-index-card__image">
+                <img
+                    src="images/recipes/epi-de-ble.jpg"
+                    alt="Épi de Blé"
+                    width="800"
+                    height="600"
+                >
+            </div>
+            <h2>Épi de Blé</h2>
+            <p>A sesame-crusted épi de blé—baguette dough cut like a wheat stalk for extra crust.</p>
+        </a>
+        </div>
+    </div>
 </main>
 
-<footer>
-    © 2026 Chef Passaretti
+<footer class="site-footer">
+    <div class="site-footer-inner">
+        <nav class="site-footer-nav" aria-label="Footer">
+            <a href="index.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="kitchen.html">Kitchen</a>
+        </nav>
+        <p>© 2026 Chef Passaretti</p>
+    </div>
 </footer>
 
 </body>
